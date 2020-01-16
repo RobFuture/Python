@@ -1,3 +1,5 @@
+import math 
+
 #x = 10 
 #y = 10.0
 #phrase = 'Hello World'
@@ -19,7 +21,6 @@
 #x = 10**3
 #print('El resultado de 10**3 es:',x)
 
-import math 
 radio = float(input('Ingrese el radio del círculo: '))
 area = round(math.pi*radio**2, 15)
 print (f'El área del circulo es: {area}')
